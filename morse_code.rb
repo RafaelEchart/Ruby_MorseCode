@@ -31,7 +31,15 @@ def decode_char(string)
   $morse_hash.each { |key, value| 
     if value == string
       letter = key.to_s
-      puts letter
+      return letter
     end
   }
 end
+
+def decode_word(string)
+  split_letters = string.split(' ')
+  split_letters.each {|el| decode_char(el)}
+end
+
+decode_char(".-")
+decode_word("-- -.--")
