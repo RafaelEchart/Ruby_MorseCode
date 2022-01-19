@@ -1,4 +1,4 @@
-@morse_hash = { 
+$morse_hash = { 
   A: ".-", 
   B: "-...", 
   C: "-.-.", 
@@ -28,12 +28,10 @@
 }
 
 def decode_char(string)
-  @morse_hash.each { |key, value| 
+  $morse_hash.each { |key, value| 
     if value == string
       letter = key.to_s
       puts letter
     end
   }
 end
-
-decode_char(".-")
