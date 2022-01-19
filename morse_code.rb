@@ -38,8 +38,12 @@ end
 
 def decode_word(string)
   split_letters = string.split(' ')
-  split_letters.each {|el| decode_char(el)}
+  word = ""
+  split_letters.each {|el| 
+    word += decode_char(el)
+  }
+  return word
 end
 
-decode_char(".-")
-decode_word("-- -.--")
+puts decode_char(".-")
+puts decode_word("-- -.--")
