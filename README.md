@@ -1,62 +1,42 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Ruby - Morse Code
+# Ruby Morse Code Challenge
 
-> Description the project.
-
+> In this project we solve a challenge to translate a morse code message into plain english. 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+- Ruby
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+- Ruby
+- Terminal
+- Use the commands in this [file](./schema_based_on_diagram.sql) to create the database.
 
-### Install
+## Author
 
-### Usage
+👤 **Juan Carlos Hernandez**
 
-### Run tests
+- GitHub: [@jchernandez87](https://github.com/jchernandez87)
+- Twitter: [@Juancar70771241](https://twitter.com/juancar70771241)
 
-### Deployment
+👤 **Alejandro Ramos**
 
+- GitHub: [@AlexRS90](https://github.com/AlexRS90)
+- Twitter: [@AlejandroRBenji](https://twitter.com/AlejandroRBenji)
 
+👤 **Rafael Echart**
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@rafaelechart](https://github.com/rafaelechart)
+- Twitter: [@rafaechart](https://twitter.com/rafaechart)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -64,9 +44,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Juan Carlos Hernandez
+- Alejandro Ramos
+- Rafael Echart
+- Microverse documentation ⭐️
 
 ## 📝 License
 
