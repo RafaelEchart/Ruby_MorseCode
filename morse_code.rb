@@ -45,5 +45,16 @@ def decode_word(string)
   return word
 end
 
+def decode_sentense(string)
+  newString = string.gsub("/", ' ')
+  split_word = newString.split('   ')
+  sentense = ''
+  split_word.each {|word|
+    sentense += decode_word(word) + ' '
+  }
+  return sentense
+end  
+
 puts decode_char(".-")
 puts decode_word("-- -.--")
+puts decode_sentense('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-. / .-. ..- -... .. . ...')
