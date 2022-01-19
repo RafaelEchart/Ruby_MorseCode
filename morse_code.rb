@@ -24,7 +24,7 @@ end
 
 def decode_sentense(string)
   new_string = string.gsub('/', ' ')
-  split_word = new_string.split('  ')
+  split_word = new_string.split('   ')
   sentense = ''
   split_word.each do |word|
     sentense += "#{decode_word(word)} "
